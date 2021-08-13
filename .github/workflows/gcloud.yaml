@@ -38,6 +38,10 @@ jobs:
 
       - name: Use gcloud CLI command
         run: gcloud info
+      - name: create VM using gcloud
+        run: |
+         gcloud compute instances create VM1 --machine-type n1-standard-2 --zone europe-west2-a
+         gcloud compute instances list
       - name: set project 
         run: |
          echo "set project id and run gsutli"
