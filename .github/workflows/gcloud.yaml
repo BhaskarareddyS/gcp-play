@@ -34,3 +34,5 @@ jobs:
 
       - name: Use gcloud CLI
         run: gcloud info
+      - name: gsutil list buckets
+        run: gsutil ls
