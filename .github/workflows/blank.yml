@@ -25,6 +25,7 @@ jobs:
 
       - name: Create VM
         run: |
+         gcloud auth activate-service-account tfcloud-service@macro-truck-322711.iam.gserviceaccount.com --key-file=/path/key.json --project=macro-truck-32271
          gcloud config set project macro-truck-32271
          gcloud compute instances create VM1 --machine-type n1-standard-2 --zone europe-west2-a --project macro-truck-32271
          gcloud compute instances list
