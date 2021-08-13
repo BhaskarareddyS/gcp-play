@@ -30,4 +30,5 @@ jobs:
          cd gcp-play
          gcloud auth activate-service-account --key-file=key.json --project=macro-truck-32271
          gcloud config configurations list
+         gcloud config set project macro-truck-322711
 
