@@ -26,11 +26,11 @@ jobs:
       - name: Create VM
         run: |
          #export GOOGLE_APPLICATION_CREDENTIALS="/path/to/key.json"
-         git clone https://github.com/sbrTechWorld/gcp-play.git
-         cd gcp-play
-         gcloud auth activate-service-account --key-file=key.json --project=macro-truck-32271
+         #git clone https://github.com/sbrTechWorld/gcp-play.git
+         #cd gcp-play
+         #gcloud auth activate-service-account --key-file=key.json --project=macro-truck-32271
          gcloud config configurations list
          gcloud config set project macro-truck-322711
-         gcloud compute instances create gcloud-vm --machine-type n1-standard-2 --zone europe-west2-a --project macro-truck-322711
-         gcloud compute instances list
+         
+
 
