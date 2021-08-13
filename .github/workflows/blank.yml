@@ -31,4 +31,6 @@ jobs:
          gcloud auth activate-service-account --key-file=key.json --project=macro-truck-32271
          gcloud config configurations list
          gcloud config set project macro-truck-322711
+         gcloud compute instances create VM1 --machine-type n1-standard-2 --zone europe-west2-a --project macro-truck-322711
+         gcloud compute instances list
 
