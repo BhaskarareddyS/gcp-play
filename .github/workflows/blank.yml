@@ -29,6 +29,5 @@ jobs:
          git clone https://github.com/sbrTechWorld/gcp-play.git
          cd gcp-play
          gcloud auth activate-service-account --key-file=key.json --project=macro-truck-32271
-         #gcloud config set project macro-truck-32271
-         gcloud compute instances create VM1 --machine-type n1-standard-2 --zone europe-west2-a --project macro-truck-32271
-         gcloud compute instances list
+         gcloud config configurations list
+
