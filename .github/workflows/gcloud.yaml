@@ -34,5 +34,7 @@ jobs:
 
       - name: Use gcloud CLI
         run: gcloud info
+      - name: set project 
+        run: gcloud config set project macro-truck-32271
       - name: gsutil list buckets
         run: gsutil ls
