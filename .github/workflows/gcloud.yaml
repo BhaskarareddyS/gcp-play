@@ -42,6 +42,10 @@ jobs:
         run: |
          gcloud compute instances create VM1 --machine-type n1-standard-2 --zone europe-west2-a
          gcloud compute instances list
+         env:
+           CLOUDSDK_METRICS_ENVIRONMENT: github-actions-setup-gcloud
+           GCLOUD_PROJECT: ${{ secrets.GCP_PROJECT_ID }}
+           GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GCP_SA_KEY }}
       - name: set project 
         run: |
          echo "set project id and run gsutli"
