@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "macro-truck-322711",
+  "private_key_id": "355b6cc3097fc1c1e9d774699b684d3f887cbb24",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDL5+wWAf81DrrT\n2pPyfcfB3vt6wfD+2s0dwJAlAOKWFVVGUCU+tP9bj7uElL7s+GzthAThBi3r0pt1\nJ9iGWHejpI3ytc2kDRKBHv9mtC2Y7f/n4GxL81Oz5a9VF6FKVRmy6/HC8HLi88Ps\n+uCse2cvL6uDjjVCEZ1z2Ec3bN7XF2LemYA9uQr9aGz2JI+0QZQXEutVWxJaIEwb\n/QlCr59D05VFi37S9cA38lk+szWvpIlidnt5WrVeZJGhAY6uVKkUFqkxctAq3ZQZ\nKaDjRpzt9df/PEwU1r7FtbWxisIXUSamIQzPJEFwe1iYiV94xqR8fDxU8iL9s5i1\nNyHZArN9AgMBAAECggEAGzOPglkWWVbjdAck9PS0HQgY3sW4F1uLgPRTFmihkZl7\ndIOVEGI3bZjFUHjCZpz2dRIHT5iSMDM6k1yzLSronO9DE3WO3xtyVEDVG/ed3Jil\naqK8973YdPeHVg/ur5qeMMj6icGnZeDUiozmQ4Q73ebbV9O1BaERcuaPi5SNvr4u\nOASXxljreXPJ0fOCALddkghaegCVzExYj+sWcqDfjf4KeOdfCVPEezRgF4vJRgWg\nT41bqHXHbTpEkIpF2nryPm9j8R1r53BOJPK6S326Lnl4YIhs4/AM+RC6M/l/j75z\nW1lvc8Go09a2GGu6n9esjOH2QVwtzDbr0x2pQlEYaQKBgQDlxGTDWFuWUaXV16KB\nmc1UO2xpco/Vn+b0zdwGqz9bzJO1IV/Tn4sX8vOYpxxWiy6dAwTWSz3eMbN1BizY\nQF4yKuY31ulJWBk2XpeJIVDLy+rQ3g+cuhoNhJfH1kzm1Y/C05Qqa8SSJR+tU+BB\n9Wj7pOvcvq2o0xyTAEO1Q+rFpQKBgQDjL6j/mcqXvxmg7cJwXXur1C+WhrWapqUo\nxPDw+PNqupJtnbNHrqN2JdvJ+MkDlrg4qQms6m43hHyHRnf3haKj0UFMPyQhxRvE\nyNs+ymoh2xybvW0IefXJU92kKfGzqUtLihW+fapKkt6UrlmDMNPVyY9M8n+e+8jW\nDN5jnZi++QKBgQChPnoYPOHJU/M1Zua8XNsjybADMEqQeG70TaOjanpESgU+j/VX\n5hcO74jUEDJq6bIEriGu4Y7BZ8+wyGygNkvkmQaHGWMN/a1z4l4l9iNlYe2gNrZu\nHow6AFsj+thtBmKlLyZDvu1sQnFAiiRPJZJPRyXe/FGSsNTUtNLPWqJfoQKBgFlD\nYq17KcTRyyoWAS3RLURoTIJiT3yCOaZ5KwojZtDqmZoEOmrRzVwgp+kFnUWRtLRe\nhnSwb7nUjnFAWOaiVTL0hymELZgvMCfzm2FieqzuwKDYnryT3uTJ1O4ppNQoknMN\nwFlmWsCOUHIuxvDrAHChj3J2XXqEB3dC+yY8x8VRAoGAUkq+OVq7hga1m5/W8p1O\nyXixpYeFxNtw0pCrE7OuALjsuN4z6uqDgFmKSbydjbVv7Sqh23++BkoajlBzjLp4\njO5zla59GggdzwWGVb2R9+WR+EE9/RL2L8SdNBpoVvZAZRJpt0kFz0V7m+r2tToc\nyTfIwvGwbuIfMMDYru+ySls=\n-----END PRIVATE KEY-----\n",
+  "client_email": "tfcloud-service@macro-truck-322711.iam.gserviceaccount.com",
+  "client_id": "110098774005677671047",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tfcloud-service%40macro-truck-322711.iam.gserviceaccount.com"
+}
