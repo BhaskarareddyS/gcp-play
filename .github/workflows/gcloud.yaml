@@ -40,6 +40,7 @@ jobs:
         run: gcloud info
       - name: create VM using gcloud
         run: |
+         gcloud config set project macro-truck-32271
          gcloud compute instances create VM1 --machine-type n1-standard-2 --zone europe-west2-a
          gcloud compute instances list
          env:
