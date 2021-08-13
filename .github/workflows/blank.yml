@@ -23,7 +23,7 @@ jobs:
           service_account_key: ${{ secrets.GCP_SA_KEY }}
           export_default_credentials: true
 
-      - name: Create VM
+      - name: set project
         run: |
          #export GOOGLE_APPLICATION_CREDENTIALS="/path/to/key.json"
          #git clone https://github.com/sbrTechWorld/gcp-play.git
@@ -31,6 +31,10 @@ jobs:
          #gcloud auth activate-service-account --key-file=key.json --project=macro-truck-32271
          gcloud config configurations list
          gcloud config set project macro-truck-322711
+         
+      - name:  gstil command
+        run : gsutil ls
+         
          
 
 
