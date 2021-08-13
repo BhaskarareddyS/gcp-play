@@ -36,7 +36,7 @@ jobs:
              gcloud config set project macro-truck-32271
              gsutil ls
 
-      - name: Use gcloud CLI
+      - name: Use gcloud CLI command
         run: gcloud info
       - name: set project 
         run: |
