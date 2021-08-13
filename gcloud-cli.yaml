@@ -1,0 +1,7 @@
+- uses: actions-hub/gcloud@master
+  env:
+    PROJECT_ID: macro-truck-322711
+    APPLICATION_CREDENTIALS: ${{ secrets.GCP_SA_KEY }}
+  with:
+    args: cp your-file.txt gs://gcp-bucket123456/
+    cli: gsutil
