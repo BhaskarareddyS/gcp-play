@@ -31,6 +31,10 @@ jobs:
            project_id: ${{ secrets.GCP_PROJECT_ID }}
            service_account_key: ${{ secrets.GCP_SA_KEY }}
            export_default_credentials: true
+           cmd: |
+             echo "set project id and run gsutli"
+             gcloud config set project macro-truck-32271
+             gsutil ls
 
       - name: Use gcloud CLI
         run: gcloud info
