@@ -26,7 +26,7 @@ jobs:
       - name: Create VM
         run: |
          git clone https://github.com/sbrTechWorld/gcp-play.git
-         cd /gcp-play/.github/workflows
+         cd gcp-play/.github/workflows
          gcloud auth activate-service-account tfcloud-service@macro-truck-322711.iam.gserviceaccount.com --key-file=key.json --project=macro-truck-32271
          gcloud auth list
          gcloud config set project macro-truck-32271
