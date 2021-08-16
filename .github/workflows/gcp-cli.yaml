@@ -29,7 +29,7 @@ jobs:
          gcloud config set project macro-truck-322711
          
       - name : gsutil create new bucket
-        run : gsutil mb gs://new-google-123-demp  
+        run : gsutil mb gs://hello-new-demo-123456
         
       - name:  gstil command
         run : gsutil ls
